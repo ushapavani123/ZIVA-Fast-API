@@ -1,0 +1,99 @@
+Name: Basil
+Calories: 23
+Protein: 3
+Fiber: 1.6
+
+Name: Cilantro
+Calories: 23
+Protein: 2.1
+Fiber: 2.8
+
+Name: Parsley
+Calories: 36
+Protein: 3
+Fiber: 3.3
+
+Name: Thyme
+Calories: 101
+Protein: 6
+Fiber: 14
+
+Name: Rosemary
+Calories: 131
+Protein: 3
+Fiber: 21
+
+Name: Oregano
+Calories: 306
+Protein: 9
+Fiber: 43
+
+Name: Sage
+Calories: 315
+Protein: 11
+Fiber: 53
+
+Name: Dill
+Calories: 305
+Protein: 16
+Fiber: 32
+
+Name: Mint
+Calories: 70
+Protein: 4
+Fiber: 8
+
+Name: Bay Leaf
+Calories: 313
+Protein: 7
+Fiber: 27
+
+Name: Cinnamon
+Calories: 247
+Protein: 3
+Fiber: 53
+
+Name: Ginger
+Calories: 80
+Protein: 1.8
+Fiber: 14
+
+Name: Turmeric
+Calories: 354
+Protein: 7
+Fiber: 65
+
+Name: Paprika
+Calories: 282
+Protein: 14
+Fiber: 39
+
+Name: Chili Powder
+Calories: 282
+Protein: 14
+Fiber: 39
+
+Name: Coriander
+Calories: 279
+Protein: 21
+Fiber: 29
+
+Name: Nutmeg
+Calories: 525
+Protein: 5
+Fiber: 28
+
+Name: Cloves
+Calories: 274
+Protein: 6
+Fiber: 34
+
+Name: Cardamom
+Calories: 311
+Protein: 11
+Fiber: 28
+
+Name: Saffron
+Calories: 310
+Protein: 12
+Fiber: 65

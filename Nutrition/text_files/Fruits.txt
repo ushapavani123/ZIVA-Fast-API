@@ -1,0 +1,99 @@
+Name: Apple
+Calories: 95
+Protein: 0.5
+Fiber: 4.4
+
+Name: Banana
+Calories: 105
+Protein: 1.3
+Fiber: 3.1
+
+Name: Orange
+Calories: 62
+Protein: 1.2
+Fiber: 3.1
+
+Name: Blueberries
+Calories: 84
+Protein: 1.1
+Fiber: 3.6
+
+Name: Pineapple
+Calories: 50
+Protein: 0.5
+Fiber: 2.3
+
+Name: Grapes
+Calories: 69
+Protein: 0.6
+Fiber: 0.9
+
+Name: Strawberry
+Calories: 33
+Protein: 0.7
+Fiber: 2
+
+Name: Watermelon
+Calories: 30
+Protein: 0.6
+Fiber: 0.4
+
+Name: Mango
+Calories: 60
+Protein: 0.8
+Fiber: 2.6
+
+Name: Kiwi
+Calories: 61
+Protein: 1.1
+Fiber: 2.1
+
+Name: Peach
+Calories: 39
+Protein: 0.9
+Fiber: 1.5
+
+Name: Pear
+Calories: 57
+Protein: 0.4
+Fiber: 3.1
+
+Name: Raspberry
+Calories: 52
+Protein: 1.5
+Fiber: 6.5
+
+Name: Blackberry
+Calories: 43
+Protein: 1.4
+Fiber: 5.3
+
+Name: Cherry
+Calories: 50
+Protein: 1
+Fiber: 2.5
+
+Name: Plum
+Calories: 46
+Protein: 0.7
+Fiber: 1.4
+
+Name: Apricot
+Calories: 48
+Protein: 1.4
+Fiber: 2
+
+Name: Lemon
+Calories: 29
+Protein: 1.1
+Fiber: 2.8
+
+Name: Lime
+Calories: 30
+Protein: 0.7
+Fiber: 1.9
+
+Name: Grapefruit
+Calories: 42
+Protein: 0.8
+Fiber: 1.6

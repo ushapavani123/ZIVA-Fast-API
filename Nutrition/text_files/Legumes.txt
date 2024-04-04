@@ -1,0 +1,99 @@
+Name: Lentils
+Calories: 353
+Protein: 25
+Fiber: 15.6
+
+Name: Chickpeas
+Calories: 164
+Protein: 8.9
+Fiber: 8
+
+Name: Black Beans
+Calories: 339
+Protein: 21.6
+Fiber: 15
+
+Name: Kidney Beans
+Calories: 127
+Protein: 8.7
+Fiber: 6.4
+
+Name: Soybeans
+Calories: 173
+Protein: 16.6
+Fiber: 9
+
+Name: Green Peas
+Calories: 81
+Protein: 5
+Fiber: 14.6
+
+Name: Pinto Beans
+Calories: 143
+Protein: 9
+Fiber: 9
+
+Name: Navy Beans
+Calories: 255
+Protein: 15
+Fiber: 19
+
+Name: Mung Beans
+Calories: 212
+Protein: 14
+Fiber: 15
+
+Name: Lima Beans
+Calories: 115
+Protein: 7.8
+Fiber: 7
+
+Name: Cannellini Beans
+Calories: 333
+Protein: 22
+Fiber: 16
+
+Name: Adzuki Beans
+Calories: 294
+Protein: 19
+Fiber: 17
+
+Name: Great Northern Beans
+Calories: 352
+Protein: 22
+Fiber: 24
+
+Name: Black-Eyed Peas
+Calories: 341
+Protein: 24
+Fiber: 23
+
+Name: Red Lentils
+Calories: 352
+Protein: 25
+Fiber: 16
+
+Name: Split Peas
+Calories: 341
+Protein: 25
+Fiber: 16
+
+Name: Garbanzo Beans
+Calories: 164
+Protein: 8.9
+Fiber: 8
+
+Name: Cranberry Beans
+Calories: 339
+Protein: 21.6
+Fiber: 15
+
+Name: French Green Lentils
+Calories: 127
+Protein: 8.7
+Fiber: 6.4
+
+Name: Anasazi Beans
+Calories: 173
+Protein: 16.6
+Fiber: 9

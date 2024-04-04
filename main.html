@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ZIVA</title>
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <!---<link rel="stylesheet" href="main.css">-->
+
+    <style>
+        body {
+    background-image: url('/static/workout1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cards{
+     margin-top: 50px; /* Adjust top margin */
+     margin-right: 200px; /* Adjust right margin */
+     margin-bottom: 200px;
+     margin-left: 200px;
+}
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+        <!-- Title Image in Navbar Brand -->
+        <a class="navbar-brand" href="#">
+            <img src="/static/ZIVA.png" alt="Title Image" height="40">
+        </a>
+
+        <!-- Toggle Button for Small Screens -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Navigation Links (Initially Hidden on Larger Screens) -->
+        <div class="collapse navbar-collapse" id="navbarNav">
+        </div>
+    </div>
+</nav>
+
+
+
+
+<div class="container-fluid">
+    <div class="row flex-nowrap">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+            <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
+                <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+                    <span class="fs-5 d-none d-sm-inline">Menu</span>
+                </a>
+                <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+                    <li class="nav-item">
+                        <a href="#" class="nav-link align-middle px-0" style="color:white">
+                              Home
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#submenu1" data-bs-toggle="collapse" class="nav-link px-0 align-middle" style="color:white">
+                            Dashboard
+                        </a>
+                        <ul class="collapse nav flex-column ms-1" id="submenu1" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">Item</span> 1 </a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">Item</span> 2 </a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#submenu3" data-bs-toggle="collapse" class="nav-link px-0 align-middle dropdown-toggle" style="color:white">
+                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline" style="color:white">SERVICES</span> </a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu3" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="/Yoga" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">YOGA</span></a>
+                            </li>
+                            <li>
+                                <a href="/exercise" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">EXERCISE</span></a>
+                            </li>
+                            <li>
+                                <a href="/GYM_Workouts" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">GYM WORKOUT</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">ZUMBA</span></a>
+                            </li>
+                            <li>
+                                <a href="/Nutrition" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">NUTRITION</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#submenu4" data-bs-toggle="collapse" class="nav-link px-0 align-middle dropdown-toggle" style="color:white">
+                            <i class="fs-4 bi-grid"></i> <span class="ms-1 d-none d-sm-inline" style="color:white">CO-FOUNDERS</span> </a>
+                            <ul class="collapse nav flex-column ms-1" id="submenu4" data-bs-parent="#menu">
+                            <li class="w-100">
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">CHAITANYA VISHNU RADHA KRISHNA</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">USHA PAVANI THOPALLE</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">PURWA VIJAY MUGDIYA</span></a>
+                            </li>
+                            <li>
+                                <a href="#" class="nav-link px-0"> <span class="d-none d-sm-inline" style="color:white">SAHANA NAGARAJ REDDY</span></a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                </ul>
+                <hr>
+            </div>
+        </div>
+        <div class="col py-3">
+            <div class="cards" style='margin-top: 50px; margin-right: 150px; margin-bottom: 150px; margin-left: 150px;'>
+  <div class="row row-cols-1 row-cols-md-2 g-4">
+  <div class="col">
+    <div class="card h-100">
+      <a href="/Yoga">
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcQmTFIT40K4eOGJ6s8plynPQzJPo8JxNl_pNUL8npJnLsBpOKyf" class="card-img-top" alt="Title Image">
+        </a>
+      <div class="card-body">
+        <h5 class="card-title">Yoga</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <a href="/exercise">
+    <img src="https://encrypted-tbn3.gstatic.com/images?q=tbn:ANd9GcTGSrs5F4XkmEgh803ICj1fenjH5LWyBgT8TYBv1GND5_UCwYo8" class="card-img-top" alt="...">
+        </a>
+
+      <div class="card-body">
+        <h5 class="card-title">Exercise</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <a href="/GYM_Workouts">
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTYFi3l15p0D5-CFl-xs5QnhcjgC6gOnfOXaDUxBoq5hMXD2WdM" class="card-img-top" alt="...">
+        </a>
+      <div class="card-body">
+        <h5 class="card-title">Gym Workout</h5>
+      </div>
+    </div>
+  </div>
+  <div class="col">
+    <div class="card h-100">
+      <a href="/Nutrition">
+    <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQPLi_vHcjwsQy_Lbu-BbneDYhXGi4OYEuqWKHyzyg3QOx2L2xC" class="card-img-top" alt="...">
+        </a>
+      <div class="card-body">
+        <h5 class="card-title">Nutrition</h5>
+      </div>
+    </div>
+  </div>
+    <div class="col">
+    <div class="card h-100">
+      <a href="your_link_here">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8YqAxrZekG5a6JTuqEBKJQzhgJDeSE0UaQQ&usqp=CAU" class="card-img-top" alt="...">        </a>
+      <div class="card-body">
+        <h5 class="card-title">Zumba</h5>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+Name: Chocolate Cake
+Calories: 237
+Protein: 3.4
+Fiber: 1.6
+
+Name: Vanilla Ice Cream
+Calories: 137
+Protein: 2.5
+Fiber: 0
+
+Name: Apple Pie
+Calories: 277
+Protein: 2.2
+Fiber: 2.4
+
+Name: Chocolate Chip Cookies
+Calories: 78
+Protein: 0.9
+Fiber: 0.4
+
+Name: Cheesecake
+Calories: 321
+Protein: 4.3
+Fiber: 0
+
+Name: Brownies
+Calories: 132
+Protein: 1.8
+Fiber: 1.1
+
+Name: Donuts
+Calories: 195
+Protein: 2.8
+Fiber: 0.9
+
+Name: Cinnamon Rolls
+Calories: 210
+Protein: 3.6
+Fiber: 0.6
+
+Name: Cupcakes
+Calories: 131
+Protein: 1.5
+Fiber: 0.3
+
+Name: Chocolate Mousse
+Calories: 245
+Protein: 4.1
+Fiber: 2.3g
+
+Name: Lemon Bars
+Calories: 170
+Protein: 1.8
+Fiber: 0.8
+
+Name: Tiramisu
+Calories: 450
+Protein: 8
+Fiber: 0
+
+Name: Pecan Pie
+Calories: 503
+Protein: 5.4
+Fiber: 3.4
+
+Name: Red Velvet Cake
+Calories: 352
+Protein: 3.5
+Fiber: 1.6
+
+Name: Marshmallows
+Calories: 23
+Protein: 0
+Fiber: 0
+
+Name: Gummy Bears
+Calories: 88
+Protein: 2.7
+Fiber: 0
+
+Name: Chocolate Truffles
+Calories: 245
+Protein: 1.9
+Fiber: 3.4
+
+Name: Fruit Tart
+Calories: 256
+Protein: 2.8
+Fiber: 1.9
+
+Name: Baklava
+Calories: 330
+Protein: 5
+Fiber: 1
+
+Name: Peanut Butter Cups
+Calories: 88
+Protein: 2.1
+Fiber: 1.1

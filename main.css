@@ -1,0 +1,12 @@
+body {
+    background-image: url('/static/workout1.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+.cards{
+     margin-top: 50px; /* Adjust top margin */
+     margin-right: 200px; /* Adjust right margin */
+     margin-bottom: 200px;
+     margin-left: 200px;
+}

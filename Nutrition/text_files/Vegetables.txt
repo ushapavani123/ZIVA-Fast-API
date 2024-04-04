@@ -1,0 +1,99 @@
+Name: Carrot
+Calories: 4
+Protein: 9
+Fiber: 28
+
+Name: Lettuce
+Calories: 15
+Protein: 14
+Fiber: 13
+
+Name: Tomato
+Calories: 18
+Protein: 09
+Fiber: 12
+
+Name: Cucumber
+Calories: 16
+Protein: 07
+Fiber: 07
+
+Name: Onion
+Calories: 40
+Protein: 11
+Fiber: 27
+
+Name: Broccoli
+Calories: 55
+Protein: 46
+Fiber: 51
+
+Name: Spinach
+Calories: 23
+Protein: 29
+Fiber: 22
+
+Name: Bell Pepper
+Calories: 31
+Protein: 13
+Fiber: 17
+
+Name: Kale
+Calories: 49
+Protein: 43
+Fiber: 41
+
+Name: Potato
+Calories: 77
+Protein: 2
+Fiber: 34
+
+Name: Sweet Potato
+Calories: 86
+Protein: 16
+Fiber: 3
+
+Name: Zucchini
+Calories: 17
+Protein: 12
+Fiber: 1
+
+Name: Cauliflower
+Calories: 25
+Protein: 19
+Fiber: 2
+
+Name: Asparagus
+Calories: 20
+Protein: 22
+Fiber: 21
+
+Name: Brussels Sprouts
+Calories: 38
+Protein: 34
+Fiber: 38
+
+Name: Corn
+Calories: 86
+Protein: 32
+Fiber: 27
+
+Name: Eggplant
+Calories: 25
+Protein: 1
+Fiber: 3
+
+Name: Green Beans
+Calories: 31
+Protein: 1.8
+Fiber: 2.7
+
+Name: Celery
+Calories: 6
+Protein: 0.3
+Fiber: 1.6
+
+Name: Beetroot
+Calories: 43
+Protein: 1.6
+Fiber: 2.8

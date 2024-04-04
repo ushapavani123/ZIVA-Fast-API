@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrition Page</title>
+    <style>
+        /* Your existing CSS styles */
+        .tabcontent {
+            display: none;
+        }
+        .tablink.active {
+            background-color: #ccc;
+        }
+        body {
+            /* Add background image CSS */
+            background-image: url('https://assets-us-01-tlsnext.kc-usercontent.com/ffacfe7d-10b6-0083-2632-604077fd4eca/02693232-4adb-480e-a7bc-cbef058cfb91/What-is-Nutrition-Counseling-iStock-1416417320-2023-2-FB-1200x630.jpg');
+            background-size: cover;
+            background-position: center;
+            /* Add position relative to body */
+            position: relative;
+            min-height: 100vh;
+            margin: 0;
+            padding: 0;
+        }
+        .bottom-content {
+            /* Add position absolute to bottom */
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            text-align: center;
+            background-color: rgba(255, 255, 255, 0.8); /* Optional: Add a semi-transparent white background */
+            padding: 20px; /* Optional: Add padding for better visibility */
+        }
+        body {
+            background-image: url('https://assets-us-01-tlsnext.kc-usercontent.com/ffacfe7d-10b6-0083-2632-604077fd4eca/02693232-4adb-480e-a7bc-cbef058cfb91/What-is-Nutrition-Counseling-iStock-1416417320-2023-2-FB-1200x630.jpg');
+            background-size: cover; /* This property ensures the background image covers the entire viewport */
+            background-position: center; /* This property centers the background image */
+        }
+    </style>
+</head>
+<body>
+    <h1 class="heading">MyNutritionDairy</h1>
+
+    <div class="tab-container">
+        <button class="tablink" onclick="openTab(event, 'tab1')">Ranking</button>
+        <button class="tablink" onclick="openTab(event, 'tab2')">Top Three Files</button>
+        <button class="tablink" onclick="openTab(event, 'tab3')">Justification</button>
+        <button class="tablink" onclick="openTab(event, 'tab4')">Co-Founder</button>
+         <a class="tablink" type="button" href = "/nutrition-insights" >Insights</a>
+    </div>
+
+    <div class="tabcontent" id="tab1">
+        <h3>File Ranking</h3>
+        <ol id="rankingList">
+            {% for file_detail in all_files_details %}
+                {% if file_detail.rank <= 15 %}
+                    <li>Rank {{ file_detail.rank }}: {{ file_detail.filename }}</li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+    </div>
+
+    <div class="tabcontent" id="tab2">
+        <h3>Top Three Files</h3>
+        <ol id="topThreeList">
+            {% for file_detail in top_files_details %}
+                {% if file_detail.rank <= 3 %}
+                    <li>Rank {{ file_detail.rank }}: {{ file_detail.filename }}</li>
+                {% endif %}
+            {% endfor %}
+        </ol>
+    </div>
+
+    <div class="tabcontent" id="tab3">
+        <h3>Justification</h3>
+        <ul id="justificationList">
+            {% for file_detail in top_files_details %}
+                <li>
+                    <h4>{{ file_detail.filename }}</h4>
+                    <p>{{ file_detail.justification }}</p>
+                </li>
+            {% endfor %}
+        </ul>
+    </div>
+
+        <div class="tabcontent" id="tab4">
+        <h3>Sahana Nagaraj Reddy</h3>
+    </div>
+
+    <div class="bottom-content">
+        <p>Find easy, low-cost recipes
+            View nutrition information in our very own MyNutrition Diary! Get complete information on all food categories!
+        </p>
+    </div>
+
+    <script>
+        function openTab(event, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablink");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            event.currentTarget.className += " active";
+        }
+    </script>
+</body>
+</html>

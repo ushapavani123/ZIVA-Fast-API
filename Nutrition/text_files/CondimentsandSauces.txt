@@ -1,0 +1,99 @@
+Name: Ketchup
+Calories: 19
+Protein: 0.4
+Fiber: 0.3
+
+Name: Mustard
+Calories: 3
+Protein: 0.3
+Fiber: 0.2
+
+Name: Mayonnaise
+Calories: 94
+Protein: 0.2
+Fiber: 0
+
+Name: Soy Sauce
+Calories: 8
+Protein: 1.3
+Fiber: 0.2
+
+Name: BBQ Sauce
+Calories: 29
+Protein: 0.3
+Fiber: 0.3
+
+Name: Hot Sauce
+Calories: 3
+Protein: 0.1
+Fiber: 0.5
+
+Name: Ranch Dressing
+Calories: 73
+Protein: 0.6
+Fiber: 0.1
+
+Name: Honey Mustard
+Calories: 57
+Protein: 0.7
+Fiber: 0.3
+
+Name: Tartar Sauce
+Calories: 99
+Protein: 0.1
+Fiber: 0
+
+Name: Salsa
+Calories: 19
+Protein: 0.9
+Fiber: 1.4
+
+Name: Pesto Sauce
+Calories: 441
+Protein: 9.3
+Fiber: 3.3
+
+Name: Teriyaki Sauce
+Calories: 61
+Protein: 0.9
+Fiber: 0.5
+
+Name: Worcestershire Sauce
+Calories: 67
+Protein: 1.4
+Fiber: 0.4
+
+Name: Thousand Island Dressing
+Calories: 111
+Protein: 0.6
+Fiber: 0.5
+
+Name: Balsamic Vinegar
+Calories: 14
+Protein: 0.1
+Fiber: 0
+
+Name: Sriracha
+Calories: 6
+Protein: 0.8
+Fiber: 0.3
+
+Name: Hoisin Sauce
+Calories: 52
+Protein: 1.1
+Fiber: 0.7
+
+Name: Buffalo Sauce
+Calories: 5
+Protein: 0.2
+Fiber: 0.1
+
+Name: Tahini
+Calories: 89
+Protein: 2.6
+Fiber: 2.6
+
+Name: Caesar Dressing
+Calories: 137
+Protein: 1.2
+Fiber: 0

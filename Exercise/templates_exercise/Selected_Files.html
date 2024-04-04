@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selected Exercise Files</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            font-style: italic;
+            font-color: green;
+            background-image: url('https://www.borntough.com/cdn/shop/articles/Top_11_Shoulder_Workouts_Without_Equipment_to_Perform_Anywhere_14cb168f-b52c-4743-a755-9f339bde6228.jpg?v=1677595407'); /* Add the URL of your background image */
+            background-size: cover;
+            background-position: center;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            text-align: center;
+            color: #333;
+        }
+
+        .exercise-card {
+            background-color: #f9f9f9;
+            margin-bottom: 20px;
+            padding: 15px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .exercise-card h3 {
+            margin-top: 0;
+            color: #333;
+        }
+
+        .exercise-card p {
+            margin-bottom: 10px;
+            color: #666;
+        }
+
+        .exercise-card .score {
+            font-weight: bold;
+            color: #007bff;
+        }
+
+        .exercise-card .justification {
+            color: #555;
+        }
+
+        .home-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+        }
+    </style>
+</head>
+<body>
+    <a class="home-btn" href="/">
+        <img src="https://cdn-icons-png.freepik.com/512/2948/2948210.png" alt="Home" width="30" height="30">
+    </a>
+    <div class="container">
+        <h2>Top Three Exercises</h2>
+        {% for exercise in top_three_files %}
+        <div class="exercise-card">
+            <h3>{{ exercise.file_name[:-4] }}</h3>
+
+            <p class="justification"><b>Justification:</b>{{ justification[loop.index0] }}</p>
+        </div>
+        {% endfor %}
+    </div>
+</body>
+</html>

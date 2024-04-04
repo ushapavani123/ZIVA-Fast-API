@@ -1,0 +1,99 @@
+Name: Milk
+Calories: 103
+Protein: 8.9
+Fiber: 0
+
+Name: Yogurt
+Calories: 59
+Protein: 10
+Fiber: 0
+
+Name: Cheese
+Calories: 402
+Protein: 25
+Fiber: 0
+
+Name: Butter
+Calories: 717
+Protein: 0.9
+Fiber: 0
+
+Name: Cream
+Calories: 340
+Protein: 2.1
+Fiber: 0
+
+Name: Sour Cream
+Calories: 193
+Protein: 2.6
+Fiber: 0
+
+Name: Cottage Cheese
+Calories: 163
+Protein: 28
+Fiber: 0
+
+Name: Cream Cheese
+Calories: 342
+Protein: 5.1
+Fiber: 0
+
+Name: Greek Yogurt
+Calories: 59
+Protein: 10
+Fiber: 0
+
+Name: Cheddar Cheese
+Calories: 403
+Protein: 25
+Fiber: 0
+
+Name: Mozzarella Cheese
+Calories: 280
+Protein: 22
+Fiber: 0
+
+Name: Feta Cheese
+Calories: 264
+Protein: 14
+Fiber: 0
+
+Name: Parmesan Cheese
+Calories: 431
+Protein: 38
+Fiber: 0
+
+Name: Ricotta Cheese
+Calories: 174
+Protein: 11
+Fiber: 0
+
+Name: Gouda Cheese
+Calories: 356
+Protein: 24
+Fiber: 0
+
+Name: Swiss Cheese
+Calories: 380
+Protein: 27
+Fiber: 0
+
+Name: Brie Cheese
+Calories: 334
+Protein: 21
+Fiber: 0
+
+Name: Blue Cheese
+Calories: 353
+Protein: 21
+Fiber: 0
+
+Name: Provolone Cheese
+Calories: 352
+Protein: 25
+Fiber: 0
+
+Name: Camembert Cheese
+Calories: 299
+Protein: 20
+Fiber: 0

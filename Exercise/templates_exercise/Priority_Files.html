@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Priority Programs</title>
+    <style>
+        body {
+            background-color: black; /* Set the background color to black */
+            color: white; /* Set text color to white */
+            font-family: Arial, sans-serif; /* Set font family */
+            font-style: italic;
+            background-position: center;
+        }
+        .home-btn {
+            position: fixed;
+            top: 20px;
+            right: 20px;
+            z-index: 9999;
+        }
+        .file-container {
+            margin-top: 20px;
+            text-align: left; /* Align the content to the left */
+        }
+        .file-image {
+            width: 200px; /* Increase the image width */
+            height: auto; /* Automatically adjust height to maintain aspect ratio */
+            /*display: block; /* Ensure images are centered */
+            /*float: left;
+            margin: 0 auto; /* Center align the images */
+            /*margin-right: 20px;*/
+        }
+        .file-details {
+            margin-top: 40px; /* Add margin between image and description */
+        }
+    </style>
+</head>
+<body>
+     <a class="home-btn" href="/">
+        <img src="https://cdn-icons-png.freepik.com/512/2948/2948210.png" alt="Home" width="30" height="30">
+    </a>
+    <h1>Priority Programs</h1>
+    <ul>
+        <div class="file-container">
+        {% for file_name in file_names %}
+        <h2>{{ file_name[:-4] }}</h2>
+        {% if file_name in file_dict %}
+            <div class ="file-details">
+            <div class="file-image">
+        <img src="{{ file_dict[file_name]['image_url'] }}" alt="{{ file_name }} Image">
+            </div>
+                <b><u>Guidelines:</u></b>
+            <p>{{ file_dict[file_name]['description'] }}</p>
+        {% endif %}
+            </div>
+        {% endfor %}
+        </div>
+    </ul>
+</body>
+</html>
+

@@ -1,0 +1,94 @@
+Name: Beer (Regular)
+Calories: 153
+Protein: 1.6
+Fiber: 0
+
+Name: Beer (Light)
+Calories: 103
+Protein: 0.9
+Fiber: 0
+
+Name: Wine (Red)
+Calories: 125
+Protein: 0.1
+Fiber: 0
+
+Name: Wine (White)
+Calories: 121
+Protein: 0.1
+Fiber: 0
+
+Name: Wine (Rosé)
+Calories: 123
+Protein: 0.1
+Fiber: 0
+
+Name: Champagne
+Calories: 84
+Protein: 0.3
+Fiber: 0
+
+Name: Vodka
+Calories: 97
+Protein: 0
+Fiber: 0
+
+Name: Rum
+Calories: 231
+Protein: 0
+Fiber: 0
+
+Name: Whiskey
+Calories: 97
+Protein: 0
+Fiber: 0
+
+Name: Tequila
+Calories: 97
+Protein: 0
+Fiber: 0
+
+Name: Gin
+Calories: 97
+Protein: 0
+Fiber: 0
+
+Name: Brandy
+Calories: 97
+Protein: 0
+Fiber: 0
+
+Name: Scotch
+Calories: 97
+Protein: 0
+Fiber: 0
+
+Name: Bourbon
+Calories: 97
+Protein: 0
+Fiber: 0
+
+Name: Cognac
+Calories: 97
+Protein: 0
+Fiber: 0
+
+Name: Sake
+Calories: 134
+Protein: 1.3
+Fiber: 0
+
+Name: Port
+Calories: 213
+Protein: 0.9
+Fiber: 0
+
+Name: Vermouth
+Calories: 140
+Protein: 0.1
+Fiber: 0
+
+Name: Liqueur
+Calories: 188
+Protein: 0.2
+Fiber: 0

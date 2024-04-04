@@ -1,0 +1,99 @@
+Name: Potato Chips
+Calories: 536
+Protein: 7.1
+Fiber: 4.9
+
+Name: French Fries
+Calories: 512
+Protein: 3.2
+Fiber: 3.8
+
+Name: Cheeseburger
+Calories: 503
+Protein: 15.6
+Fiber: 3.1
+
+Name: Hot Dog
+Calories: 590
+Protein: 12.9
+Fiber: 1.1
+
+Name: Pizza
+Calories: 766
+Protein: 12.2
+Fiber: 2.4
+
+Name: Ice Cream
+Calories: 707
+Protein: 4.9
+Fiber: 0.7
+
+Name: Chocolate Bar
+Calories: 546
+Protein: 7.8
+Fiber: 3.4
+
+Name: Cookies
+Calories: 502
+Protein: 6.3
+Fiber: 4.7
+
+Name: Donuts
+Calories: 452
+Protein: 6.2
+Fiber: 2.6
+
+Name: Candy
+Calories: 396
+Protein: 3.5
+Fiber: 1.1
+
+Name: Soda
+Calories: 138
+Protein: 0
+Fiber: 0
+
+Name: Energy Drink
+Calories: 121
+Protein: 1.5
+Fiber: 0
+
+Name: Potato Crisps
+Calories: 538
+Protein: 5.4
+Fiber: 6.7
+
+Name: Milkshake
+Calories: 225
+Protein: 8.3
+Fiber: 0.6
+
+Name: Fried Chicken
+Calories: 298
+Protein: 16.9
+Fiber: 0
+
+Name: Onion Rings
+Calories: 411
+Protein: 6.1
+Fiber: 3.3
+
+Name: Nachos
+Calories: 459
+Protein: 12.3
+Fiber: 6.5
+
+Name: Brownie
+Calories: 466
+Protein: 5.4
+Fiber: 2.1
+
+Name: Pancakes
+Calories: 227
+Protein: 5.3
+Fiber: 1.1
+
+Name: Marshmallow
+Calories: 337
+Protein: 0.8
+Fiber: 0

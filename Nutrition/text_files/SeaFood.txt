@@ -1,0 +1,99 @@
+Name: Salmon
+Calories: 206
+Protein: 22
+Fiber: 0
+
+Name: Tuna
+Calories: 179
+Protein: 40
+Fiber: 0
+
+Name: Shrimp
+Calories: 85
+Protein: 20
+Fiber: 0
+
+Name: Cod
+Calories: 82
+Protein: 18
+Fiber: 0
+
+Name: Crab
+Calories: 84
+Protein: 17
+Fiber: 0
+
+Name: Sardines
+Calories: 208
+Protein: 24
+Fiber: 0
+
+Name: Mackerel
+Calories: 305
+Protein: 18
+Fiber: 0
+
+Name: Trout
+Calories: 143
+Protein: 19
+Fiber: 0
+
+Name: Halibut
+Calories: 158
+Protein: 23
+Fiber: 0
+
+Name: Lobster
+Calories: 89
+Protein: 20
+Fiber: 0
+
+Name: Octopus
+Calories: 82
+Protein: 17
+Fiber: 0
+
+Name: Tilapia
+Calories: 84
+Protein: 20
+Fiber: 0
+
+Name: Anchovies
+Calories: 210
+Protein: 29
+Fiber: 0
+
+Name: Haddock
+Calories: 116
+Protein: 25
+Fiber: 0
+
+Name: Oysters
+Calories: 68
+Protein: 8
+Fiber: 0
+
+Name: Clams
+Calories: 148
+Protein: 26
+Fiber: 0
+
+Name: Tuna Steak
+Calories: 184
+Protein: 29
+Fiber: 0
+
+Name: Swordfish
+Calories: 165
+Protein: 19
+Fiber: 0
+
+Name: Scallops
+Calories: 111
+Protein: 20
+Fiber: 0
+
+Name: Caviar
+Calories: 264
+Protein: 24
+Fiber: 0

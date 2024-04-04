@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scraper Findings</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container mt-4">
+        <h2>Findings</h2>
+        <p>Count of Unique Exercises: {{ unique_exercises_count }}</p>
+
+        <!-- User input for weight -->
+        <div class="form-group">
+    <label for="weightInput">Enter Weight:</label>
+    <input type="text" class="form-control" id="weightInput" placeholder="Enter weight in lbs">
+</div>
+<button type="button" class="btn btn-primary" onclick="getTopWeightExercises()">Get Top Exercises by Weight</button>
+        <!-- User input for impact -->
+       <div class="form-group mt-4">
+    <label for="impactInput">Enter Impact:</label>
+    <input type="text" class="form-control" id="impactInput" placeholder="Enter impact keyword">
+</div>
+<button type="button" class="btn btn-primary" onclick="getTopWeightExercises()">Get Top Exercises by Impact</button>
+
+        <h3>Top Impact Exercises</h3>
+        <ul id="topImpactList">
+            {% for exercise in top_impact_exercises %}
+                <li>{{ exercise }}</li>
+            {% endfor %}
+        </ul>
+        <h3>Top Exercises by Weight</h3>
+        <ul id="topWeightList">
+            {% for exercise in top_weight_exercises %}
+                <li>{{ exercise }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</body>
+
+    <!-- Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+ <!-- Custom JavaScript to handle button clicks -->
+    <script>
+    function getTopWeightExercises() {
+        var weight = document.getElementById('weightInput').value;
+        fetch("/findings")
+            .then(response => response.json())
+            .then(data => {
+                var topWeightList = document.getElementById('topWeightList');
+                topWeightList.innerHTML = '';
+                data.forEach(exercise => {
+                    var li = document.createElement('li');
+                    li.textContent = exercise;
+                    topWeightList.appendChild(li);
+                });
+            });
+    }
+
+    function getTopImpactExercises() {
+    var impact = document.getElementById('impactInput').value;
+    fetch('/findings?impact=' + impact)
+        .then(response => response.json())
+        .then(data => {
+            var topImpactList = document.getElementById('topImpactList');
+            topImpactList.innerHTML = '';
+            data.forEach(exercise => {
+                var li = document.createElement('li');
+                li.textContent = exercise;
+                topImpactList.appendChild(li);
+            });
+        });
+}
+</script>
+</html>

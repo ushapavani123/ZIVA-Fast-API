@@ -1,0 +1,99 @@
+Name: Olive Oil
+Calories: 119
+Protein: 0
+Fiber: 0
+
+Name: Coconut Oil
+Calories: 121
+Protein: 0
+Fiber: 0
+
+Name: Avocado Oil
+Calories: 124
+Protein: 0
+Fiber: 0
+
+Name: Canola Oil
+Calories: 124
+Protein: 0
+Fiber: 0
+
+Name: Vegetable Oil
+Calories: 124
+Protein: 0
+Fiber: 0
+
+Name: Peanut Oil
+Calories: 119
+Protein: 0
+Fiber: 0
+
+Name: Sesame Oil
+Calories: 120
+Protein: 0
+Fiber: 0
+
+Name: Sunflower Oil
+Calories: 124
+Protein: 0
+Fiber: 0
+
+Name: Corn Oil
+Calories: 122
+Protein: 0
+Fiber: 0
+
+Name: Grapeseed Oil
+Calories: 120
+Protein: 0
+Fiber: 0
+
+Name: Flaxseed Oil
+Calories: 120
+Protein: 0
+Fiber: 0
+
+Name: Walnut Oil
+Calories: 120
+Protein: 0
+Fiber: 0
+
+Name: Butter
+Calories: 102
+Protein: 0.1
+Fiber: 0
+
+Name: Margarine
+Calories: 188
+Protein: 0.2
+Fiber: 0
+
+Name: Lard
+Calories: 115
+Protein: 0
+Fiber: 0
+
+Name: Ghee
+Calories: 112
+Protein: 0
+Fiber: 0
+
+Name: Shortening
+Calories: 113
+Protein: 0
+Fiber: 0
+
+Name: Duck Fat
+Calories: 130
+Protein: 0
+Fiber: 0
+
+Name: Beef Tallow
+Calories: 115
+Protein: 0
+Fiber: 0
+
+Name: Chicken Fat
+Calories: 120
+Protein: 0
+Fiber: 0

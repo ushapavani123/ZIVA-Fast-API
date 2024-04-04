@@ -1,0 +1,99 @@
+Name: Almonds
+Calories: 207
+Protein: 7.6
+Fiber: 3.5
+
+Name: Walnuts
+Calories: 654
+Protein: 15.2
+Fiber: 6.7
+
+Name: Cashews
+Calories: 553
+Protein: 18
+Fiber: 3.3
+
+Name: Pistachios
+Calories: 562
+Protein: 20
+Fiber: 10
+
+Name: Pecans
+Calories: 690
+Protein: 9.2
+Fiber: 9.6
+
+Name: Brazil Nuts
+Calories: 656
+Protein: 14.3
+Fiber: 8
+
+Name: Macadamia Nuts
+Calories: 718
+Protein: 7.9
+Fiber: 8.6
+
+Name: Hazelnuts
+Calories: 628
+Protein: 15
+Fiber: 10.6
+
+Name: Pine Nuts
+Calories: 673
+Protein: 13.7
+Fiber: 3.7
+
+Name: Peanuts
+Calories: 567
+Protein: 25.8
+Fiber: 8.5
+
+Name: Chestnuts
+Calories: 213
+Protein: 2.7
+Fiber: 5.7
+
+Name: Sunflower Seeds
+Calories: 584
+Protein: 20.8
+Fiber: 8.6
+
+Name: Pumpkin Seeds
+Calories: 559
+Protein: 30
+Fiber: 12
+
+Name: Sesame Seeds
+Calories: 573
+Protein: 17
+Fiber: 12
+
+Name: Flaxseeds
+Calories: 534
+Protein: 18.3
+Fiber: 27.3
+
+Name: Chia Seeds
+Calories: 486
+Protein: 16.5
+Fiber: 34.4
+
+Name: Hemp Seeds
+Calories: 567
+Protein: 33
+Fiber: 7.3
+
+Name: Poppy Seeds
+Calories: 525
+Protein: 17.9
+Fiber: 19.5
+
+Name: Quinoa
+Calories: 222
+Protein: 8
+Fiber: 5
+
+Name: Amaranth
+Calories: 371
+Protein: 14
+Fiber: 18

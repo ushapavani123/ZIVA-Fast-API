@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <title>Welcome to Health and Fitness Site!</title>
+            <style>
+                body {
+                    font-family: "Times New Roman", Times, serif;
+                    background-image: url('https://www.unc.edu/wp-content/uploads/2024/01/BeActiveHERO-1200x675.jpg');
+                    background-size: cover;
+                    background-repeat: no-repeat;
+                    display: flex;
+                    align-items: flex-start;
+                    justify-content: space-around;
+                    height: 100vh;
+                    padding: 30px;
+                    margin: 0; /* Reset default margins */
+                }
+
+                .container {
+                    background-color: rgba(255, 255, 255, 0.7);
+                    padding: 20px;
+                    border-radius: 10px;
+                    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                    width: 60%;
+                    text-align: center; /* Changed from 'left' to center the heading  */
+                    color: purple;
+                    margin: 20px auto; /* Changed to auto for horizontal centering */
+                }
+
+                .header-container {
+                    width: 60%;
+                    margin: 0 auto; /* Center the header container */
+                }
+
+                .header-container h1 {
+                    margin-bottom: 20px; /* Space between heading and dropdowns */
+                }
+
+                .dropdowns-container {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: flex-start;
+                    margin-right: 20px;
+                    position: absolute; /* Absolute positioning for precise placement */
+                    top: 50%;
+                    transform: translateY(-50%); /* Center vertically within container */
+                    left: 10px; /* Adjust left margin as needed */
+                }
+
+                .dropdown {
+                    display: inline-block; /* Inline style for positioning */
+                    position: relative; /* Required for sub-menu positioning */
+                    border-radius: 5px; /* Add rounded corners */
+                    margin-bottom: 10px; /* Add spacing between dropdowns */
+                    text-align: left; /* Align dropdown content to the left */
+                }
+
+                .dropdown-content {
+                    display: none; /* Sub-menu initially hidden */
+                    position: absolute; /* Absolute positioning relative to parent */
+                    background-color: #f1f1f1;
+                    min-width: 160px;
+                    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                    z-index: 1; /* Ensure sub-menu is displayed above other elements */
+                    border-radius: 5px; /* Add rounded corners */
+                }
+
+                .dropdown-content a {
+                    color: black;
+                    padding: 12px 16px;
+                    text-decoration: none;
+                    display: block;
+                }
+
+                .dropdown-content a:hover {background-color: #ddd;} /* Hover effect for sub-menu options */
+                .dropdown:hover .dropdown-content {display: block;} /* Show sub-menu on hover */
+                .dropbtn {
+                    background-color: #3498db; /* Adjust background color for dropbtn */
+                    color: white;
+                    padding: 15px 20px;
+                    border: none;
+                    border-radius: 5px; /* Add rounded corners */
+                    cursor: pointer;
+                }
+            </style>
+        </head>
+        <body>
+            <div class="container">
+                <div class="header-container">
+                    <h1>Welcome to the Exercise Program</h1>
+                    <h4>The only bad exercise is the one that didn't happen!!!!!</h4>
+                </div>
+            </div>
+            <div class="dropdowns-container">
+                <div class="dropdown">
+                    <button class="dropbtn">Data Sources</button>
+                    <div class="dropdown-content">
+                        <a href="https://fitnesswebsite.com" target="_blank">Website URL</a>
+                        <a href="https://ninjaapi.com" target="_blank">API</a>
+                    </div>
+                </div>
+                <div class="dropdown">
+                    <button class="dropbtn">Program Ranking and Selection</button>
+                    <div class="dropdown-content">
+                        <a href="/priority-files">Priority Programs</a>
+                        <a href="/selected-files">Selected Programs</a>
+                    </div>
+                </div>
+                <button onclick="window.location.href='/hourly-calorie-blasters';" class="dropbtn">Hourly Calorie Blasters</button>
+            </div>
+        </body>
+    </html>

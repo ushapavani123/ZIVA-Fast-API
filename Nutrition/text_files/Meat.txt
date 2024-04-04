@@ -1,0 +1,99 @@
+Name: Chicken Breast
+Calories: 165
+Protein: 31
+Fiber: 0
+
+Name: Beef Steak
+Calories: 271
+Protein: 29
+Fiber: 0
+
+Name: Pork Chop
+Calories: 221
+Protein: 25
+Fiber: 0
+
+Name: Turkey Breast
+Calories: 135
+Protein: 30
+Fiber: 0
+
+Name: Salmon
+Calories: 206
+Protein: 22
+Fiber: 0
+
+Name: Tuna
+Calories: 179
+Protein: 40
+Fiber: 0
+
+Name: Shrimp
+Calories: 85
+Protein: 20
+Fiber: 0
+
+Name: Lamb Chop
+Calories: 250
+Protein: 25
+Fiber: 0
+
+Name: Cod
+Calories: 82
+Protein: 18
+Fiber: 0
+
+Name: Crab
+Calories: 84
+Protein: 17
+Fiber: 0
+
+Name: Sardines
+Calories: 208
+Protein: 24
+Fiber: 0
+
+Name: Duck Breast
+Calories: 337
+Protein: 20
+Fiber: 0
+
+Name: Venison
+Calories: 158
+Protein: 30
+Fiber: 0
+
+Name: Rabbit
+Calories: 173
+Protein: 21
+Fiber: 0
+
+Name: Quail
+Calories: 134
+Protein: 19
+Fiber: 0
+
+Name: Bison
+Calories: 143
+Protein: 28
+Fiber: 0
+
+Name: Goose
+Calories: 238
+Protein: 26
+Fiber: 0
+
+Name: Pheasant
+Calories: 203
+Protein: 23
+Fiber: 0
+
+Name: Ostrich
+Calories: 140
+Protein: 28
+Fiber: 0
+
+Name: Elk
+Calories: 162
+Protein: 22
+Fiber: 0

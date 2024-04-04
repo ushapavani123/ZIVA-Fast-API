@@ -1,0 +1,99 @@
+Name: Wheat
+Calories: 339
+Protein: 13.2
+Fiber: 12.2
+
+Name: Rice
+Calories: 130
+Protein: 2.7
+Fiber: 0.6
+
+Name: Oats
+Calories: 389
+Protein: 16.9
+Fiber: 10.6
+
+Name: Barley
+Calories: 354
+Protein: 12.5
+Fiber: 17.3
+
+Name: Cornmeal
+Calories: 364
+Protein: 9.4
+Fiber: 8.2
+
+Name: Rye
+Calories: 338
+Protein: 10.3
+Fiber: 15.1
+
+Name: Quinoa
+Calories: 222
+Protein: 8
+Fiber: 5
+
+Name: Millet
+Calories: 378
+Protein: 11
+Fiber: 8.5
+
+Name: Buckwheat
+Calories: 343
+Protein: 13.3
+Fiber: 10
+
+Name: Bulgur
+Calories: 83
+Protein: 3.1
+Fiber: 3.4
+
+Name: Farro
+Calories: 337
+Protein: 14.6
+Fiber: 8.3
+
+Name: Amaranth
+Calories: 371
+Protein: 14
+Fiber: 18
+
+Name: Teff
+Calories: 367
+Protein: 13.3
+Fiber: 8
+
+Name: Spelt
+Calories: 338
+Protein: 15
+Fiber: 10.7
+
+Name: Sorghum
+Calories: 329
+Protein: 10.6
+Fiber: 6.7
+
+Name: Fonio
+Calories: 378
+Protein: 11
+Fiber: 8
+
+Name: Freekeh
+Calories: 362
+Protein: 14
+Fiber: 10
+
+Name: Kamut
+Calories: 337
+Protein: 14
+Fiber: 9
+
+Name: Durum
+Calories: 339
+Protein: 14
+Fiber: 13
+
+Name: Einkorn
+Calories: 337
+Protein: 13
+Fiber: 5

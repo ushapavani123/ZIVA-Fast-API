@@ -1,0 +1,67 @@
+{
+  "criteria": [
+    {
+      "name": "Intensity",
+      "description": "The intensity level of the exercise (low, Moderate, high)",
+      "weights": {
+        "High": 3,
+        "Moderate": 2,
+        "Low": 1
+      }
+    },
+    {
+      "name": "Target Muscle Groups",
+      "description": "The number and variety of muscle groups targeted by the exercise",
+      "weights": {
+        "Upper Body": 6,
+        "Lower Body": 5,
+        "Full Body": 4,
+        "Core": 3,
+        "Back": 2,
+        "Legs": 1
+      }
+    },
+    {
+      "name": "Duration",
+      "description": "The recommended duration of the exercise session",
+      "weights": {
+        "Varies" : 9,
+        "1-3 hours": 8,
+        "1-2 hours": 7,
+        "30 mins - 1 hour": 6,
+        "45 mins - 1 hour": 5,
+        "1.5 hours": 4,
+        "15-30 mins": 3,
+        "1-3 hours": 2,
+        "20-40 mins": 1
+      }
+    },
+    {
+      "name": "Benefits",
+      "description": "The overall benefits of the exercise (e.g., strength, endurance, flexibility)",
+      "weights": {
+        "enhances mental focus": 5,
+        "improves balance and coordination": 4,
+        "Strength": 3,
+        "Endurance": 2,
+        "Flexibility": 1
+      }
+    },
+    {
+      "name": "Calories Burned",
+      "description": "The estimated number of calories burned per hour",
+      "weights": {
+        "500-900": 9, 
+        "400-800": 8,
+        "300-600": 7,
+        "300-600": 7,
+        "300-500": 6,
+        "200-600": 5,
+        "200-500": 4,
+        "200-400": 3,
+        "200-300": 2,
+        "100-200": 1
+      }
+    }
+  ]
+}

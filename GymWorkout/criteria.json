@@ -1,0 +1,19 @@
+{
+  "Total Workout Time": {
+    "(35 minutes)": 1,
+    "(40 minutes)": 2,
+    "(45 minutes)": 3,
+    "(50 minutes)": 4,
+    "(55 minutes)": 5,
+    "(60 minutes)": 6
+  },
+  "Total Calories Burned": {
+    "(300 calories)": 1,
+    "(350 calories)": 2,
+    "(400 calories)": 3,
+    "(450 calories)": 4,
+    "(500 calories)": 5,
+    "(550 calories)": 6,
+    "(600 calories)": 7
+  }
+}

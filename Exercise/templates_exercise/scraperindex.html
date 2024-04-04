@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercise Insights</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            /* Specify the path to your background image */
+            background-image: url('https://www.vivotion.com/wp-content/uploads/2019/08/6-surprising-spiritual-benefits-of-exercise-1-exercise-and-its-relationship-with-spirituality.jpg');
+            /* Set background size and repeat properties */
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">Exercise Insights</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <!-- Display Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="loadContent('/display')">Display</a>
+            </li>
+            <!-- Findings Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href='#' onclick="loadContent('/findings')">View Findings</a>
+            </li>
+            <!-- Plots Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="loadContent('/plots')">Plots</a>
+            </li>
+            <!-- Recommendations Menu -->
+            <li class="nav-item">
+                <a class="nav-link" href="#" onclick="loadContent('/recommendations')">Recommendations</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Container for content -->
+<div class="container mt-4" id="content">
+    <!-- Content will be loaded here -->
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+<!-- Custom JavaScript to handle navigation -->
+<script>
+    function loadContent(endpoint) {
+        fetch(endpoint)
+            .then(response => response.text())
+            .then(html => document.getElementById('content').innerHTML = html);
+    }
+
+    function getTopWeightExercises() {
+        var weight = document.getElementById('weightInput').value;
+        var impact = document.getElementById('impactInput').value;
+        fetch('/findings?weight=' + weight+'&impact='+impact)
+            .then(response => response.text())
+            .then(html => document.getElementById('content').innerHTML = html);
+
+    }
+
+    function getTopImpactExercises() {
+    var impact = document.getElementById('impactInput').value;
+    fetch('/findings?impact=' + impact)
+        .then(response => response.text())
+        .then(html => document.getElementById('content').innerHTML = html);
+    }
+
+
+</script>
+
+</body>
+</html>

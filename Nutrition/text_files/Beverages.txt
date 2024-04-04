@@ -1,0 +1,99 @@
+Name: Water
+Calories: 0
+Protein: 0
+Fiber: 0
+
+Name: Coffee
+Calories: 2
+Protein: 0.3
+Fiber: 0
+
+Name: Tea (Green)
+Calories: 2
+Protein: 0.1
+Fiber: 0
+
+Name: Tea (Black)
+Calories: 2
+Protein: 0.1
+Fiber: 0
+
+Name: Milk (Skim)
+Calories: 83
+Protein: 8.3
+Fiber: 0
+
+Name: Milk (Low-fat)
+Calories: 102
+Protein: 8.4
+Fiber: 0
+
+Name: Milk (Whole)
+Calories: 146
+Protein: 7.9
+Fiber: 0
+
+Name: Orange Juice
+Calories: 112
+Protein: 1.7
+Fiber: 0.5
+
+Name: Apple Juice
+Calories: 114
+Protein: 0.1
+Fiber: 0.2
+
+Name: Cranberry Juice
+Calories: 116
+Protein: 0.1
+Fiber: 0
+
+Name: Grapefruit Juice
+Calories: 96
+Protein: 0.6
+Fiber: 0
+
+Name: Pineapple Juice
+Calories: 132
+Protein: 0.3
+Fiber: 0.1
+
+Name: Tomato Juice
+Calories: 41
+Protein: 1.9
+Fiber: 0.7
+
+Name: Coconut Water
+Calories: 46
+Protein: 1.7
+Fiber: 0.3
+
+Name: Almond Milk (Unsweetened)
+Calories: 13
+Protein: 1.3
+Fiber: 0.5
+
+Name: Soy Milk (Unsweetened)
+Calories: 80
+Protein: 7
+Fiber: 1
+
+Name: Rice Milk (Unsweetened)
+Calories: 47
+Protein: 0.3
+Fiber: 0.3
+
+Name: Sparkling Water
+Calories: 0
+Protein: 0
+Fiber: 0
+
+Name: Lemonade
+Calories: 99
+Protein: 0.1
+Fiber: 0
+
+Name: Iced Tea (Sweetened)
+Calories: 36
+Protein: 0.1
+Fiber: 0
